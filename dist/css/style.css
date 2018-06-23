@@ -1,0 +1,202 @@
+.brand-link img.brand-image {
+    float: none!important;
+    
+    max-height: 55px!important;
+    width: 55px!important;
+    height: 55px!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+   
+}
+
+.bg-warning-gradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d9b121+0,d97721+100 */
+background: #d9b121; /* Old browsers */
+background: -moz-linear-gradient(left, #d9b121 0%, #d97721 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #d9b121 0%,#d97721 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #d9b121 0%,#d97721 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9b121', endColorstr='#d97721',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.container-fluid {
+    
+    padding-right: 35px!important;
+    padding-left: 35px!important;
+    
+}
+
+
+
+.wrapper .navbar{
+	padding: 0!important;
+}
+
+.nav-link i{
+	font-size: 1.3em;
+
+}
+
+
+
+.user-top{position: relative; margin-top: -10px;}
+
+
+.user-top .bg-warning-gradient{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	top: 0;
+}
+
+
+.welcome h3{
+	font-size: 22px;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+
+.quotation{ padding: 0 }
+.quotation li{
+	display: inline-block;
+	color: #9c9b9b;
+	margin: 5px 15px;
+	font-size: 13px;
+}
+
+
+
+.ls3{
+	letter-spacing: 3px;
+}
+
+.card-header {
+    padding: 1rem 1.8rem;
+
+    
+}
+
+
+.bg-dark .card-header{
+	border-color: #262328!important
+}
+
+.card h5{
+	font-weight: 200
+}
+
+
+.card  .icon img{
+    width: 60px;
+    position: absolute; 
+    top: 35px;
+    right: 35px;
+}
+
+.card  .icon i{
+	position: absolute;
+	bottom: 35px;
+    right: 35px;
+
+}
+
+
+
+html body .tabs .nav-tabs{
+border-bottom: 0px!important;
+}
+
+html body .tabs .bg-dark .nav-link:hover{
+border-color: #1f1c21!important;
+}
+
+html body .tabs .bg-dark .nav-link.active{
+	border: none!important;
+	background: #1f1c21!important;
+	color: #d8b020!important;
+
+}
+
+
+
+
+
+.sidebar {
+    
+    padding-left: 0!important;
+    padding-right: 0!important;
+    
+}
+
+
+.nav-sidebar{}
+.nav-sidebar .nav-item a{
+	padding: 20px 20px;
+}
+
+.nav-sidebar > .nav-item .nav-icon{
+	color: #575756!important;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #d8b020!important;
+}
+
+
+
+.main-footer{
+	border-top: 1px #222 solid!important;
+}
+
+
+
+
+.table-dark {
+    color: #c6c6c5!important;
+    background-color: #1b191c!important;
+}
+
+.table-dark th, .table-dark td, .table-dark thead th {
+    border-color: #1f1c21!important;
+}
+
+
+
+ .form-control{
+ 	-webkit-border-radius: 3px!important;
+border-radius: 3px!important;
+ }
+
+
+ .bg-dark .form-control{
+ 	background: #3d3a3f!important;
+ 	border-color: #0e0e11;
+ 	color: #b8b3bc!important;
+ }
+
+ .bg-dark .form-control:focus{
+ 	-webkit-box-shadow: 0 0 2px 1px #d8b020;
+box-shadow: 0 0 2px 1px #d8b020;
+ }
+
+
+ .bg-warning .form-control{
+ 	background: #c1960e!important;
+ 	border-color: #b28b0f;
+ 	color: #0e0e11!important;
+ }
+
+ .bg-warning .form-control:focus{
+ 	-webkit-box-shadow: 0 0 2px 1px #fff;
+box-shadow: 0 0 2px 1px #fff;
+ }
+
+ 
+
+
+
+

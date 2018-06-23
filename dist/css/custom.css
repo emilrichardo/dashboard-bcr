@@ -1,0 +1,245 @@
+/*
+Theme personalizado para el ministerio publico fiscal
+Emil Gonzalez
+*/
+
+
+body{
+	font-family: 'Raleway', sans-serif!important;
+}
+
+.font2{
+	
+	font-family: 'Roboto Condensed', sans-serif!important;
+}
+
+.font-serif{
+	font-family: 'Playfair Display', serif!important;
+}
+
+/*fondos*/
+html body .bg-dark, html body .badge-dark{
+	background-color: #181619!important;
+}
+
+html body .bg-dark2{
+	background-color: #1f1c21!important
+}
+html body .bg-dark0{
+	background-color: #0e0e11!important
+}
+
+html body .bg-success,html body .badge-success,html body .alert-success{
+	background-color: #23B76D!important;
+
+}
+
+html body .bg-info,html body .badge-info,html body .alert-info{
+	background-color: #24A4D1!important;
+
+}
+
+html body .bg-warning,html body .badge-warning,html body .alert-warning{
+	background-color: #d8b020!important;
+	color: #fff!important;
+	border: none;
+
+}
+
+html body .bg-light,html body .badge-light,html body .alert-light{
+	background-color: #ececec!important;
+
+}
+
+
+html body .bg-primary,html body .badge-primary{
+	background-color: #286f8d!important;
+
+}
+
+html body .bg-primary2,html body .badge-primary2{
+	background-color: #1a5e7a!important;
+
+}
+
+html body .bg-danger,html body .badge-danger{
+	background-color: #E8562A!important;
+
+}
+
+/*color de txt*/
+html body .text-dark{
+	color: #181619!important;
+}
+
+
+html body .text-info {
+	color: #24A4D1!important
+}
+
+
+html body .text-success{
+	color: #23B76D!important
+}
+
+/*paginator*/
+.page-link{
+	color: #666
+}
+
+.page-item.active .page-link{
+	background: #24A4D1;
+	border-color: #24A4D1;
+	color: #fff;
+}
+
+/*botones*/
+html body .btn, html body button.btn{
+	-webkit-border-radius: 3px!important;
+border-radius: 3px!important;
+
+}
+
+.btn-dark{
+	background-color: #0e0e11!important;
+	color: #fff!important;
+}
+
+.btn-outline-light:hover{
+	color: #286f8d!important
+}
+
+html body .btn-outline-dark, button.btn-outline-dark{
+	border-color: #0e0e11!important;
+}
+
+
+.btn-outline-dark:hover{
+	background-color: #181619!important;
+	color: #fff!important;
+}
+
+
+.btn-outline-info{
+	border-color: #24A4D1!important;
+}
+
+.btn-info,.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #262328!important;
+	
+	border-color: #d8b020!important;
+	border-left: solid 4px #d8b020!important;
+
+ 
+	-webkit-border-radius: 0;
+border-radius: 0;
+}
+
+
+.btn-success{
+	background-color: #23B76D!important;
+	border: 0!important;
+	color: #ffff!important;
+}
+
+.btn-danger{
+	background-color: #E8562A!important;
+	border: 0!important;
+	color: #ffff!important;
+}
+
+.btn-primary{
+	background-color: #286f8d!important;
+	border: 0!important;
+	color: #fff!important;
+}
+
+
+.btn-primary:hover{
+	background-color: #181619!important;
+}
+
+
+/*cards*/
+.card-outline{}
+.card-primary.card-outline{
+	border-color: #286f8d;
+}
+
+.card-info.card-outline{
+	border-color: #24A4D1!important;
+}
+
+.card-success:not(.card-outline) .card-header {
+    background-color:#23B76D!important ;
+    border-bottom: 0;
+}
+
+.card-warning:not(.card-outline) .card-header {
+    background-color:#FFB30D!important ;
+    
+    border-bottom: 0;
+}
+
+.card-primary:not(.card-outline) .card-header{
+	background-color: #286f8d!important;
+}
+
+.card-info:not(.card-outline) .card-header{
+	background-color: #24A4D1!important;
+}
+
+
+
+.card-success.card-outline {
+    border-color: #23B76D!important;
+}
+
+.card-warning.card-outline {
+    border-color: #FFB30D!important;
+}
+
+/*alert*/
+
+
+/*badge*/
+html body .badge{
+	-webkit-border-radius: 2px!important;
+border-radius: 2px!important;
+}
+
+
+
+html body .border-info{
+	border-color: #24A4D1!important
+}
+html body .border-primary{
+	border-color: #286f8d!important
+}
+html body .border-danger{
+	border-color: #E8562A!important
+}
+
+
+/*callout*/
+
+.callout.callout-warning{border-color:#FFB30D!important}
+.callout.callout-danger{border-color:#E8562A!important}
+.callout.callout-primary{border-color:#286f8d!important}
+.callout.callout-info{border-color:#24A4D1!important}
+
+/**/
+
+.main-sidebar ::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 5px;
+}
+ 
+.main-sidebar ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px ;
+}
+ 
+.main-sidebar ::-webkit-scrollbar-thumb {
+  background-color: #262328;
+  outline: 1px solid slategrey;
+}
